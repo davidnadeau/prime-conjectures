@@ -1,5 +1,5 @@
 var Prime = (function() {
-	var 	currentPrime = 2,
+	var currentPrime = 2,
 		primeCount = 2;
 		
 	return {
@@ -7,11 +7,11 @@ var Prime = (function() {
 		// https://en.wikipedia.org/wiki/Primality_test#Python_implementation
 		isPrime: function(n) {
 			if (n < 2) return false;
-			if (n == 2 || n == 3) return true;
-			if (n % 2 == 0 || n % 3 == 0) return false;
+			if (n === 2 || n === 3) return true;
+			if (n % 2 === 0 || n % 3 === 0) return false;
 			var largestDivisor = Math.round(Math.sqrt(n));
 			for (var i = 5; i <= largestDivisor; i+=6) {
-				if (n % i == 0 || n % (i + 2) == 0) return false;
+				if (n % i === 0 || n % (i + 2) === 0) return false;
 			}
 			return true;
 
@@ -25,6 +25,6 @@ var Prime = (function() {
 			currentPrime = primeCount;
 			return currentPrime;
 		}
-	}
+	};
 
 }());

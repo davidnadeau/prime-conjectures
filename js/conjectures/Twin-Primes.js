@@ -16,5 +16,5 @@ var TwinPrime = (function() {
 			currentPair = '('+p1.toString()+", "+p2.toString()+')';
 			return currentPair;
 		}
-	}
+	};
 }());

@@ -28,7 +28,7 @@ var PrimeConjectures = (function() {
 						console.log("Redmond-Sun Test ", RedmondSun.getExceptions(i));
 					}
 				}
-			}	
+			};
 		}())
 	};
 }());
