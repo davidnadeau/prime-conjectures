@@ -24,7 +24,7 @@ var PrimeConjectures = (function() {
 				test: function() {
 					//// test the first 5 ranges
 					// i {0,1,2} have no exceptional intervals
-					for (var i = 3; i < 9; i++) {
+					for (var i = 3; i < 14; i++) {
 						console.log("Redmond-Sun Test ", RedmondSun.getExceptions(i));
 					}
 				}
