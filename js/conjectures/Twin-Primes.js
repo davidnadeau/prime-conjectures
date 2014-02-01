@@ -1,23 +1,20 @@
 var TwinPrime = (function() {
-	var currentTwin;
+	var currentPair;
 
-	function isTwin(x, y) {
+	function isTwinPrime(x, y) {
 		return y - x == 2;
 	}
 		
 	return {
-		currentTwin: function() {
-			return currentTwin;
-		},
-		nextTwin: function() {
+		nextPair: function() {
 			var p1, p2;
 			do {
 				p1 = Prime.currentPrime();
 				p2 = Prime.nextPrime();
-			} while (!isTwin(p1,p2));
+			} while (!isTwinPrime(p1,p2));
 			
-			currentTwin = '('+p1.toString()+", "+p2.toString()+')';
-			return currentTwin;
+			currentPair = '('+p1.toString()+", "+p2.toString()+')';
+			return currentPair;
 		}
 	}
 }());
