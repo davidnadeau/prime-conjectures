@@ -1,5 +1,4 @@
-var PrimeConjectures = (function() {
-	
+var PrimeConjectures = (function() {	
 	
 	return {
 		twinPrimeConjecture: (function() {
@@ -12,11 +11,10 @@ var PrimeConjectures = (function() {
 			}	
 			return {
 				test: function() {
-					console.log("10th Prime Twin:   ", getTwin(10));
-					console.log("50th Prime Twin:   ", getTwin(50));
-					console.log("100th Prime Twin:  ", getTwin(100));
-					console.log("500th Prime Twin:  ", getTwin(500));
-					console.log("1000th Prime Twin: ", getTwin(1000));
+					//generate increasing large twin primes
+					for (var i = 10; i <= 1250; i*=5) {
+						console.log(" Twin Prime Test: ", getTwin(i));
+					}
 				}
 			};
 		}()),
@@ -24,8 +22,11 @@ var PrimeConjectures = (function() {
 		redmondSunConjecture: (function() {
 			return {
 				test: function() {
-					console.log("Redmond-Sun Test, Expect 2 terms: ", RedmondSun.getExceptions(5));
-					console.log("Redmond-Sun Test, Expect 3 terms: ", RedmondSun.getExceptions(6));
+					//// test the first 5 ranges
+					// i {0,1,2} have no exceptional intervals
+					for (var i = 3; i < 8; i++) {
+						console.log("Redmond-Sun Test ", RedmondSun.getExceptions(i));
+					}
 				}
 			}	
 		}())

@@ -26,7 +26,6 @@ var RedmondSun = (function() {
 				}
 			}
 			return excep;
-			
 		}
 	}
 }());
