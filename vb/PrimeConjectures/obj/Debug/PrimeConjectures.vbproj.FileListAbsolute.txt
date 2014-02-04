@@ -1,0 +1,10 @@
+X:\Math1p40\a1\PrimeConjectures\PrimeConjectures\bin\Debug\PrimeConjectures.exe.config
+X:\Math1p40\a1\PrimeConjectures\PrimeConjectures\bin\Debug\PrimeConjectures.exe
+X:\Math1p40\a1\PrimeConjectures\PrimeConjectures\bin\Debug\PrimeConjectures.pdb
+X:\Math1p40\a1\PrimeConjectures\PrimeConjectures\bin\Debug\PrimeConjectures.xml
+X:\Math1p40\a1\PrimeConjectures\PrimeConjectures\obj\Debug\PrimeConjectures.Form1.resources
+X:\Math1p40\a1\PrimeConjectures\PrimeConjectures\obj\Debug\PrimeConjectures.Resources.resources
+X:\Math1p40\a1\PrimeConjectures\PrimeConjectures\obj\Debug\PrimeConjectures.vbproj.GenerateResource.Cache
+X:\Math1p40\a1\PrimeConjectures\PrimeConjectures\obj\Debug\PrimeConjectures.exe
+X:\Math1p40\a1\PrimeConjectures\PrimeConjectures\obj\Debug\PrimeConjectures.xml
+X:\Math1p40\a1\PrimeConjectures\PrimeConjectures\obj\Debug\PrimeConjectures.pdb
